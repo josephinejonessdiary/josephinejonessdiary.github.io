@@ -1,0 +1,107 @@
+body {
+    font-family: "Garamond", serif;
+    font-size:1em;
+}
+
+.tim {
+  background: rgb(232,232,230);
+  background: url(timwalkerimage.jpg),linear-gradient(180deg, rgba(230,228,228,1) 40%, rgba(221,219,217,1) 70%);
+  margin: 2em;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.logo {
+  width: 30em;
+  height: 6em;
+  background-image: url(logo.png);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-bottom: 1em;
+  margin-left: -0.5em;
+}
+
+div.menucolumn {
+  float:left;
+  width: 40%;
+  padding: 0;
+  margin-top: 0;
+  margin-left: 5em%
+}
+
+div.content {
+  float:left;
+  width: 60%;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 0.15em;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 0em;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+i.work {
+  text-decoration: underline;
+  text-decoration-color: rgba(0,0,0,0.2);
+}
+
+.menuItem {
+  font-size: 1em;
+  display: block;
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
+  margin: 0;
+  padding-bottom: 0.4em;
+}
+
+a.menuItem:hover {
+  color: #316ac6;
+}
+
+@media screen and (max-width: 950px) {
+  div.menucolumn {
+    float:left;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  div.content {
+    float:left;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1em;
+    padding: 0;
+  }
+
+  .tim {
+    background: url(timwalkerimagecrop.jpg),linear-gradient(180deg, rgba(230,228,228,1) 40%, rgba(221,219,217,1) 70%);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+  }
+}
