@@ -143,4 +143,9 @@ a:hover {
     background-size: contain;
 
   }
+
+  .homewrapper {
+    padding: 0;
+    margin-top: 5em;
+  }
 }
