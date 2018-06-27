@@ -12,6 +12,34 @@ body {
   background-size: contain;
 }
 
+.home {
+  background: rgb(232,232,230);
+  background: linear-gradient(180deg, rgba(230,228,228,1) 40%, rgba(221,219,217,1) 70%);
+  margin: 2em;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.homewrapper {
+  padding: 0;
+  margin-top: 35vh;
+}
+
+.homelogo {
+  max-width: 50em;
+  height: 8em;
+  background-image: url(logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logo {
   width: 30em;
   height: 6em;
@@ -77,7 +105,18 @@ i.work {
   padding-bottom: 0.4em;
 }
 
-a.menuItem:hover {
+.menuItemA {
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+  padding-bottom: 0.4em;
+  text-transform: uppercase;
+}
+
+
+a:hover {
   color: #316ac6;
 }
 
