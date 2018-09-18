@@ -5,7 +5,7 @@ body {
 
 .boutique {
   background: rgb(232,232,230);
-  background: url(boutiquebackground.jpg);
+  background: url(boutiquebackground.jpg), linear-gradient(180deg, rgba(230,228,228,1) 40%, rgba(221,219,217,1) 70%);
   margin: 2em;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 0em;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   margin-left: auto;
   margin-right: auto;
   color: rgba(0,0,0,0);
@@ -60,10 +60,12 @@ body {
 .boutiqueleft {
   max-width:50vh;
   float: left;
+  margin-bottom: 2em;
+  margin-right: 2em;
 }
 
 .boutiqueright {
-  max-width:80vh;
+  max-width:90vh;
   float: right;
 }
 
@@ -222,6 +224,9 @@ a:hover {
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 0px;
   height: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
 }
 
 .homevidbox iframe {
