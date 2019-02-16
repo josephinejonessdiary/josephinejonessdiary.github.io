@@ -54,6 +54,14 @@ body {
   display: block;
 }
 
+#content:target {
+        display: block;
+}
+
+#seasons:target {
+        display: block;
+}
+
 .lb {
   margin: 0;
 }
