@@ -50,14 +50,18 @@ body {
   display: block;
 }
 
+.dropdown:focus .dropdown-content {
+  display: block;
+}
+
 .lb {
   margin: 0;
 }
 
 .homewrapper {
   padding: 0;
-  padding-top: 1em;
-  margin-top: 2em;
+  padding-top: 0em;
+  margin-top: 0em;
   max-width: 1000px;
   margin: auto;
 }
@@ -177,12 +181,12 @@ i.work {
 }
 
 a {
-  color: #b1bdd1;
+  color: #316ac6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #316ac6;
+  color: #5087e0;
 }
 
 .lbcontainer {
